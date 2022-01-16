@@ -33,7 +33,7 @@ public class InterfaceRetrieval : MonoBehaviour
     // // Numbers indicate diferent components of hand
     // // 0 indicates root frame of the hand, where the wrist is located
     // // 1~24 match each hand bones and fingertips
-    private List<float> ss_joystick =  new List<float>{1,1,1,1,1,0.2f,// 0-5
+    private List<float> ss_joystick =  new List<float>{1,1,1,1,0.5f,0.2f,// 0-5
                                                     1,1,1,1,1,// 6-10
                                                     1,1,1,1,1,// 11-15
                                                     1,1,1,0.1f,1,// 16-20
@@ -41,13 +41,13 @@ public class InterfaceRetrieval : MonoBehaviour
     private List<float> ss_binoculars =  new List<float>{1,1,1,1,1,1,1,// 0-5
                                                     1,1,1,1,1,// 6-10
                                                     1,1,1,1,1,// 11-15
-                                                    1,1,1,2,2,// 16-20
-                                                    2,2,2,1};// 21-24
-    private List<float> ss_scissors =  new List<float>{1,1,1,1,1,1,// 0-5
-                                                    1,2,2,1,1,// 6-10
-                                                    1,1,1,1,1,// 11-15
                                                     1,1,1,1,1,// 16-20
                                                     1,1,1,1};// 21-24
+    private List<float> ss_scissors =  new List<float>{1,1,1,1,1,1,// 0-5
+                                                    0.5f,0.2f,0.1f,0.5f,0.2f,// 6-10
+                                                    0.1f,1,1,1,1,// 11-15
+                                                    1,1,1,1,0.1f,// 16-20
+                                                    0.1f,1,1,1};// 21-24
     private Dictionary<string, List<float>> sensitivitydict;
 
     // Threshold, flags and buffer parameters
