@@ -1,3 +1,5 @@
+This repo was created anonymously before paper acceptance. For the latest version under maintenance, please go to https://github.com/sypei/Hand-Interfaces. Thanks!
+
 # Hand-Interfaces
 
 ![image](https://user-images.githubusercontent.com/90154278/149648239-81732862-cc99-4865-9b34-133adf97c333.png)
